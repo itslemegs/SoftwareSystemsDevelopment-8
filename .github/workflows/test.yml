@@ -1,3 +1,5 @@
+name: Build and Publish Docker
+
 on:
   push:
     branches:
