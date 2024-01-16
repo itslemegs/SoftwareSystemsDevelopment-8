@@ -11,6 +11,12 @@ function App() {
     );
 }
 
+function HeaderText() {
+    return (
+        <h1 className="text-center">My Todo List</h1>
+    );
+}
+
 function TodoListCard() {
     const [items, setItems] = React.useState(null);
 
