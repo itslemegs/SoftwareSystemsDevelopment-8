@@ -4,16 +4,12 @@ function App() {
         <Container>
             <Row>
                 <Col md={{ offset: 3, span: 6 }}>
+		    <h1 className="text-center">Todo List</h1>
+                    <p className="text-center">Manage your tasks efficiently!</p>
                     <TodoListCard />
                 </Col>
             </Row>
         </Container>
-    );
-}
-
-function HeaderText() {
-    return (
-        <h1 className="text-center">My Todo List</h1>
     );
 }
 
